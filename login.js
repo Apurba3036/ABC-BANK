@@ -41,6 +41,10 @@ else if(email=== 'Fahima' && pass=== 'fahima231'){
        
    window.location.href= 'fahima.html';
 }
+else if(email=== 'Rahman' && pass=== 'rahman231'){
+       
+   window.location.href= 'rahman.html';
+}
 
 else{
    alert('Please give correct user-name and password')

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ABC BANK</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.tailwindcss.com"></script>
+ <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body class="bg-teal-50">
+
+  <H1 class="text-5xl text-center mt-8 font-serif"><span class="semi-bold text-amber-600">ABC BANK</span></H1><br>
+  <H1 class="text-3xl text-center mt-5 font-serif">User Account</H1>
+  <br><br>
+
+  <div class="d-flex align-items-center pl-10 flex-wrap">
+    <div class="flex-shrink-0">
+      <img src="https://scontent.fdac148-1.fna.fbcdn.net/v/t39.30808-6/267444107_2704789833150338_8261360617714634574_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeE1TpJ3E3T6SZa1aoWJ814CCCKeyeN3g5AIIp7J43eDkI7axzNjM4IPq5Cc0M--AMchYxmyPp6YWSEddkvtCCDH&_nc_ohc=viPxl_lKISsAX8FUQIJ&_nc_ht=scontent.fdac148-1.fna&oh=00_AfDLoBJIA_58b89KgI5AvDTpOFXj3D6kwx4Otvh1Sz4BUA&oe=640E0B32" class="img-thumbnail rounded float-start" alt=" ">
+    </div>
+    <div class="flex-grow-1 ms-3 text-3xl">
+      Name:Md. Abdur Rahman
+      <br>
+      ID: 1STRYSB345 <br>
+      <address>Gazipur</address>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class=" c col-sm text-center bg-red-500">
+        <h5 class="card-title">Deposit</h5>
+        <p class="card-text">$<span id="deposit-total" >00</span>   </p>
+      </div>
+      <div class=" c col-sm text-center bg-orange-500">
+        <h5 class="card-title">Withdraw</h5>
+        <p class="card-text">$<span id="withdrawtotal">00</span></p>
+      </div>
+      <div class="c col-sm text-center bg-lime-500">
+        <div>
+          <h5 class="card-title">Balance</h5>
+          <p class="card-text">$<span id="balance-total">1000</span></p>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="container">
+      <div class=" row flex gap-4 flex-wrap">
+        <div class="col">
+
+          <div class="c  text-center bg-slate-400">
+
+
+
+            <h5 class="card-title text-white">Deposit Amount: </h5><br>
+            <div class="mb-3">
+              <input type="Number" id="deposit" class="Deposit-control" style="font-size: 20px;" 
+                aria-describedby="depositHelp" placeholder="Amount $">
+              <button id="depositbutton" class="btn btn-primary font-semibold ">Enter</button>
+            </div>
+          </div>
+        </div>
+        <!-- ... -->
+        <div class="col">
+
+          <div class="c text-center bg-slate-400">
+            <h5 class="card-title text-white">Withdraw Amount: </h5><br>
+            <div class="mb-3">
+              <input type="Number"  id="withdraw" style="font-size: 20px;" class="withdraw-control"
+                aria-describedby="withdrawHelp" placeholder="Amount $">
+              <button id="withdrawbutton" class="btn btn-primary font-semibold ">Enter</button>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+     <!-- <script src="/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script> -->
+    <script src="main.js"></script>
+</body>
+
+</html>
