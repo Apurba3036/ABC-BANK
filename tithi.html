@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.tailwindcss.com"></script>
+ <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body class="bg-teal-50">
+
+  <H1 class="text-5xl text-center mt-8 font-serif"><span class="semi-bold text-amber-600">ABC BANK</span></H1><br>
+  <H1 class="text-3xl text-center mt-5 font-serif">User Account</H1>
+  <br><br>
+
+  <div class="d-flex align-items-center pl-10 flex-wrap">
+    <div class="flex-shrink-0">
+      <img src="https://scontent.fdac148-1.fna.fbcdn.net/v/t39.30808-6/326996348_558005759695745_198558139377599537_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeFw-59l74Bp8OLKW-MbRicPoZN_0rAGUFGhk3_SsAZQUbANqX08Edap_rai1tfkhJJ3qP7qcLNzVsop5O2vrmOt&_nc_ohc=W0yRGVkFYq0AX-oHghT&_nc_ht=scontent.fdac148-1.fna&oh=00_AfAvzAV4UxrZahGFSnWuV3HQvR_wMNmQusKPDmOr436T1Q&oe=640ED023" class="img-thumbnail rounded float-start" alt=" ">
+    </div>
+    <div class="flex-grow-1 ms-3 text-3xl">
+      Name: Israt Jahan Tithi
+      <br>
+      ID: 1STRYSB345 <br>
+      <address>Narsingdi</address>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class=" c col-sm text-center bg-red-500">
+        <h5 class="card-title">Deposit</h5>
+        <p class="card-text">$<span id="deposit-total" >00</span>   </p>
+      </div>
+      <div class=" c col-sm text-center bg-orange-500">
+        <h5 class="card-title">Withdraw</h5>
+        <p class="card-text">$<span id="withdrawtotal">00</span></p>
+      </div>
+      <div class="c col-sm text-center bg-lime-500">
+        <div>
+          <h5 class="card-title">Balance</h5>
+          <p class="card-text">$<span id="balance-total">1000</span></p>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="container">
+      <div class=" row flex gap-4 flex-wrap">
+        <div class="col">
+
+          <div class="c  text-center bg-slate-400">
+
+
+
+            <h5 class="card-title text-white">Deposit Amount: </h5><br>
+            <div class="mb-3">
+              <input type="Number" id="deposit" class="Deposit-control" style="font-size: 20px;" 
+                aria-describedby="depositHelp" placeholder="Amount $">
+              <button id="depositbutton" class="btn btn-primary font-semibold ">Enter</button>
+            </div>
+          </div>
+        </div>
+        <!-- ... -->
+        <div class="col">
+
+          <div class="c text-center bg-slate-400">
+            <h5 class="card-title text-white">Withdraw Amount: </h5><br>
+            <div class="mb-3">
+              <input type="Number"  id="withdraw" style="font-size: 20px;" class="withdraw-control"
+                aria-describedby="withdrawHelp" placeholder="Amount $">
+              <button id="withdrawbutton" class="btn btn-primary font-semibold ">Enter</button>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+     <!-- <script src="/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script> -->
+    <script src="main.js"></script>
+</body>
+
+</html>
